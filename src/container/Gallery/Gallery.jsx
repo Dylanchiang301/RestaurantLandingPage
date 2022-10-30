@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { AiFillInstagram } from 'react-icons/ai'
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
@@ -36,7 +37,7 @@ const Gallery = () => {
           {image11.map((image, index) => (
             <div className='app__gallery_images_card flex__center' key={`gallery__image_${index +1 }`}>
               <img src={image} alt="gallery"/>
-              <BsInstagram className='gallery__images_icon'/>
+              <AiFillInstagram className='gallery__images_icon'/>
             </div>
           ))}
 
