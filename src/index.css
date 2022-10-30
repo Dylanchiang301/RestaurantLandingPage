@@ -11,6 +11,7 @@
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
 }
+ /*設定CSS的變數：*/
 
 * {
   box-sizing: border-box;

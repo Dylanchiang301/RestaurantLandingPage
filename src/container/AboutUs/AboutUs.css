@@ -2,18 +2,18 @@
     position: relative;
 }
 
-.app__aboutus-overlay {
+.app__aboutus_overlay {
     position: absolute;
     inset: 0;
 }
 
-.app__aboutus-overlay img {
-    width: 391px;
-    height: 415px;
+.app__aboutus_overlay img {
+    width:35%;
+    height: 40%;
     z-index: 0;
 }
 
-.app__aboutus-content {
+.app__aboutus_content {
     width: 100%;
     z-index: 2;
 }
