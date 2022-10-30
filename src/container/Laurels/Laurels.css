@@ -28,7 +28,7 @@
     margin-left:1rem
 }  
 
-@media screen and (min-width: 1900px){
+@media screen and (max-width: 1900px){
     .app__laurels_awards_card{
         min-width: 390px;
     }

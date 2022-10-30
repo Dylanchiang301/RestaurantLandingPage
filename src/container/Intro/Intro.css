@@ -9,13 +9,13 @@
     object-fit: cover;
 }
 
-.app__video-overlay {
+.app__video_overlay {
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.30);
 }
 
-.app__video-overlay_circle{ 
+.app__video_overlay_circle{ 
     width: 100px;
     height: 100px;
     border-radius: 50%;

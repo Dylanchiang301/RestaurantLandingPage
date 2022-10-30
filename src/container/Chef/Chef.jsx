@@ -7,7 +7,7 @@ import './Chef.css';
 const Chef = () => (
   <div className='app__bg app__wrapper section__padding'>
     <div className='app__wrapper_img app__wrapper_img-reverse'>
-      <div className='app__chef-img'>
+      <div className='app__chef_img'>
       <img src={ images.chef } alt='chef'/>
       </div>
     </div>
@@ -17,8 +17,8 @@ const Chef = () => (
       <h1 className='headtext__cormorant'> What we believe in</h1>
       
 
-      <div className='app__chef-content'>
-        <div className='app__chef-content_quote'>
+      <div className='app__chef_content'>
+        <div className='app__chef_content_quote'>
           <img src={ images.quote } alt="quote"/>
           <p className='p__opensans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
           </p>
@@ -28,7 +28,7 @@ const Chef = () => (
             </p>
       </div>
 
-      <div className='app__chef-sign'>
+      <div className='app__chef_sign'>
         <p>Dylan Chiang</p>
         <p className='p__opensans'>Chef & Founder</p>
         <img src={images.sign} alt="sign"/>

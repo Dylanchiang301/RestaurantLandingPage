@@ -4,6 +4,7 @@ import { SubHeading } from '../../components';
 import { images, data } from '../../constants';
 import './Laurels.css';
 
+// AwardCard這個component沒有要重複使用，所以就直接建立在這個Laurels.jsx中
 const AwardCard = ({award: {imgUrl, title, subtitle}}) => (
   <div className='app__laurels_awards_card'>
     <img src={imgUrl} alt="award" />

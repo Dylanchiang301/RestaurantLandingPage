@@ -20,7 +20,7 @@ const Intro = () => {
   
  return(
   <div className='app__video'>
-    <video 
+    <video
       src={meal}
       ref={vidRef}
       type="video/mp4"
@@ -28,9 +28,9 @@ const Intro = () => {
       controls={false}
       muted
      />
-    <div className='app__video-overlay flex__center'>
+    <div className='app__video_overlay flex__center'>
       <div 
-        className='app__video-overlay_circle flex__center'
+        className='app__video_overlay_circle flex__center'
         onClick={handleVideo}
       >
         {playVideo 
