@@ -34,13 +34,15 @@
     flex-direction: row;
     width: max-content;
     overflow-x: scroll;
-    -ms-overflow-style: none;
+    /* 編輯左右內容，採用滾動的方式 */
+    -ms-overflow-style: none; 
+    /* 這段CSS是為了在IE/Edge網頁中隱藏滾動條 */
     scrollbar-width: none;
 }
 
 .app__gallery_images_container::-webkit-scrollbar {
     display: none;
-}
+}/* 這段CSS是為了在Chrome網頁中隱藏滾動條 */
 
 .app__gallery_images_card {
     position: relative;
